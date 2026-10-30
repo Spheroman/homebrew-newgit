@@ -3,28 +3,28 @@
 class Newgit < Formula
   desc "Every branch, ready to run"
   homepage "https://github.com/Spheroman/newgit"
-  version "0.7.0"
+  version "0.8.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Spheroman/newgit/releases/download/v0.7.0/newgit-aarch64-apple-darwin.tar.gz"
-      sha256 "fd7dbbef705d2f0c0d972468d3d5f93ca9b0c5703a39e4f1dface852c73be31c"
+      url "https://github.com/Spheroman/newgit/releases/download/v0.8.0/newgit-aarch64-apple-darwin.tar.gz"
+      sha256 "31479e8e0186f47cb13636dbe8fd211d7a0b1ac2824503012b0ecc8fc95b5a29"
     end
     on_intel do
-      url "https://github.com/Spheroman/newgit/releases/download/v0.7.0/newgit-x86_64-apple-darwin.tar.gz"
-      sha256 "9b1496683b32d5ed3fa8da0bf01557be8ccefe0d9834651ec0e2b84cb37d077c"
+      url "https://github.com/Spheroman/newgit/releases/download/v0.8.0/newgit-x86_64-apple-darwin.tar.gz"
+      sha256 "6bf4c0dded667213784b63a2d956e841ed271c808cb39157783d3d77e7dd78d8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Spheroman/newgit/releases/download/v0.7.0/newgit-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "47f708a0c2c794b402af827e1b87c233ad89d747252b3ad898038b58e9fa8444"
+      url "https://github.com/Spheroman/newgit/releases/download/v0.8.0/newgit-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ac5a3de56d1b736951bf5bab11366dac745b18af29b97a9f21b6ee1eac1d60b7"
     end
     on_intel do
-      url "https://github.com/Spheroman/newgit/releases/download/v0.7.0/newgit-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0cd240a4ed0aa4bbbdaa8f6d65f6057c25f02604e1786a5885fa914556569cb1"
+      url "https://github.com/Spheroman/newgit/releases/download/v0.8.0/newgit-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e6d2f9497ea15b154325afd302c2f2cf7395c4e7a30ec4ad4c1f055ef5864baf"
     end
   end
 
